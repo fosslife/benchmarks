@@ -31,6 +31,7 @@ $ wrk -c 120 -d 30 -t 4 [url]
 | Polka 🌟  | 1268792    | 42270.90 | 134.31MB  | 4.47MB     |
 | Raw http  | 1443735    | 48087.58 | 152.83MB  | 5.09MB     |
 | Rayo      | 1232476    | 41059.82 | 135.17MB  | 4.50MB     |
+| Foxify    | 1041094    | 34687.30 | 133.04MB  | 4.43MB     |
 
 
 #### With Cluster [4]
@@ -43,6 +44,7 @@ $ wrk -c 120 -d 30 -t 4 [url]
 | Polka 🌟  | 3990211    | 132599.37 | 422.40MB  | 14.04MB    |
 | Raw http  | 4232665    | 140768.42 | 448.06MB  | 14.90MB    |
 | Rayo      | 3812527    | 126748.34 | 418.13MB  | 13.90MB    |
+| Foxify    | 2886582    | 96164.25  | 368.88MB  | 12.29MB    |
 
 
 Raw HTTP module is sure a beast! But it's hard to manage without a framework. I have taken it into consideration Just to compare native speed with other frameworks. Keeping it aside, looks like Polka wins the race here. But as I said, benchmarks are usually stupid and should be taken into consideration at `lowest` priority while deciding a framework. 

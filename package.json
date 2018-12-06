@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "fastify": "^1.13.1",
+    "foxify": "^0.10.20",
     "koa": "^2.6.2",
     "polka": "^0.5.1",
     "rayo": "^1.2.5"
