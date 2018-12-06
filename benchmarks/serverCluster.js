@@ -10,5 +10,5 @@ if(cluter.isMaster){
         cluter.fork();
     });
 } else {
-    require('./foxify/foxifyServer'); // your server file here like server.js
+    // require(''); your server file here like server.js
 }

@@ -116,6 +116,16 @@ Rayo:
     1232476 requests in 30.02s, 135.17MB read
     Requests/sec:  41059.82
     Transfer/sec:      4.50MB
+
+Foxify:
+    Running 30s test @ http://localhost:3000/
+    4 threads and 120 connections
+    Thread Stats   Avg      Stdev     Max   +/- Stdev
+        Latency     3.49ms    0.87ms  29.96ms   96.43%
+        Req/Sec     8.72k     1.10k    9.69k    93.92%
+    1041094 requests in 30.01s, 133.04MB read
+    Requests/sec:  34687.30
+    Transfer/sec:      4.43MB
 ```
 
 #### With Cluster
@@ -180,4 +190,14 @@ Rayo:
     3812527 requests in 30.08s, 418.13MB read
     Requests/sec: 126748.34
     Transfer/sec:     13.90MB
+
+Foxify:
+    Running 30s test @ http://localhost:3000/
+    4 threads and 120 connections
+    Thread Stats   Avg      Stdev     Max   +/- Stdev
+        Latency     1.36ms    1.48ms  94.42ms   95.99%
+        Req/Sec    24.18k     2.71k   30.27k    83.67%
+    2886582 requests in 30.02s, 368.88MB read
+    Requests/sec:  96164.25
+    Transfer/sec:     12.29MB
 ```
